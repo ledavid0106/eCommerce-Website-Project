@@ -9,35 +9,67 @@
 </head>
 <body>
     <header>   
-        <nav>
-            <a href="">eCommerce</a>
-            <ul>
-                <li><a class="active" href="#home">HOME</a></li>
-                <li><a href="#news">ABOUT</a></li>
-                <li><a href="#contact">PRODUCTS</a></li>
-                <li><a href="#about">CONTACT</a></li>
-            </ul>
+        <nav class="flex-container">
+            <div class="flex-container3">
+                <!-- <a href="eCommerce"></a> -->
+                <ul style="list-style-type: none;">
+
+                    <li><a class="active" href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#contacts">CONTACT</a></li>
+
+                </ul>
+            </div>
+
+            <div class="flex-container1" >
+                <p>C A R A</p>
+                <img src="images/icons8-pottery-96.png" alt="logo" class="logo">
+                <p>C A R A</p>
+            </div>
+
+            <div class="flex-container2">
+                <form>
+                    <input type="search" placeholder="Search...">
+                    <button type="submit">Search</button>
+                  </form>
+                  <p>CART(0)</p>
+              </div>
+              
         </nav>
     </header>
 
     <main>
-        <section class="home">
-            <img src="images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Hand Crafting Clay Pots">
-            <p>CERAMICS CRAFTED BY HAND...</p>
-            <p>...FROM THE GROUND UP</p>
+        <section class="homepage" id="home" >
+            <div class="blackbox">&nbsp;</div> 
+            <img src="images/earl-wilcox-y3W0CzO063w-unsplash-alt..jpg" alt="Hand Crafting Clay Pots" class="images">
+            <div class="top-left">
+                <p>CERAMICS</p>
+                <p>CRAFTED BY</p>
+                <p>HAND...</p>
+            </div>
+            <div class="bottom-right">
+            <p class="bottom-right">
+                <p>...FROM THE</p>
+                <p>GROUND UP</p>
+            </div>
+
+            <div class="blackbox">&nbsp;</div> 
         </section>
-        <section class="about"></section>
+        <section id="about">
         <div>
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            <h2 class="titles">ABOUT US</h2>
+        <div class="flex4">
+        <div class="flex3">
+            <p class="flex5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
                 faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
                 ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
                 risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
                 amet commodo.</p>
-            <div>
-                <img src="images/Vase_Dame_2048x2048.jpg" alt="vase">
-                <div>
+            <div class="flex2">
+                <img src="images/Vase_Dame_2048x2048.jpg" alt="vase" class="image1">
+                <div class="flex1">
                 <p>Nulla porttitor massa id neque aliquam
                     vestibulum morbi. Facilisi nullam vehicula
                     ipsum a arcu cursus vitae congue. Nam libero
@@ -51,6 +83,7 @@
                     vestibulum lorem sed risus. Cursus sit amet
                     dictum sit amet justo donec enim.
                     </p>
+                    <div class="whitebox">&nbsp;</div>
                 <p>Tincidunt praesent semper feugiat nibh sed.
                     Vulputate mi sit amet mauris commodo quis
                     imperdiet massa. Amet tellus cras adipiscing
@@ -59,197 +92,228 @@
                 </div>
             </div>
         </div>
-        <img src="images/Cylinder_unglazed3_2048x2048.jpg" alt="vase">
+        <img src="images/Cylinder_unglazed3_2048x2048.jpg" alt="vase" class="image2">
         </div>
+        </div>
+        </section>
         <section class="products">
-        <div>    
-            <div>         
-                <img src="images/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="MUNDO BOWLS">
-                    <div>
-                    <h4>MUNDO BOWLS</h4>
-                    <p>$48.00</p>
+        <div id="products">    
+            <h2 class="titles">OUR PRODUCTS</h2>
+            <div> 
+                <div class="row">       
+                <div class="products1">
+                    <img src="images/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="MUNDO BOWLS" class="proimage">
+                    <div class="price"> 
+                        <h4>MUNDO BOWLS</h4>
+                        <p>$48.00</p>
                     </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
                     </div>
-                </div>
-                <div>
-                    <img src="images/oriento-maVIpNNtmlQ-unsplash.jpg" alt="NATUREZA VASE">
-                    <div>
-                    <h4>NATUREZA VASE</h4>
-                    <p>$37.00</p>
-                    </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="FERIA BOWLS">
-                    <div>
-                    <h4>FEIRA BOWLS</h4>
-                    <p>$29.00</p>
+                <div class="products1">
+                    <img src="images/oriento-maVIpNNtmlQ-unsplash.jpg" alt="NATUREZA VASE" class="proimage">
+                    <div class="price">
+                        <h4>NATUREZA VASE</h4>
+                        <p>$37.00</p>
                     </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
                     </div>
-                </div>
-                <div>
-                    <img src="images/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="NATUREZA POTS">
-                    <div>
-                    <h4>NATUREZA POTS</h4>
-                    <p>$59.00</p>
-                    </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/linh-le-a0rE64YJDA4-unsplash.jpg" alt="PEDRA VASE">
-                    <div>
-                    <h4>PEDRA VASE</h4>
-                    <p>$31.00</p>
+                <div class="products1">
+                    <img src="images/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="FERIA BOWLS" class="proimage">
+                    <div class="price">
+                        <h4>FEIRA BOWLS</h4>
+                        <p>$29.00</p>
                     </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
                     </div>
-                </div>
-                <div>
-                    <img src="images/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="VIAJA POTS">
-                    <div>
-                    <h4>VIAJA POTS</h4>
-                    <p>$57.00</p>
-                    </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="SERVIÇO PLATES">
-                    <div>
-                    <h4>SERVIÇO PLATES</h4>
-                    <p>$35.00</p>
+                </div> 
+
+
+                <div class="row">
+                <div class="products1">
+                    <img src="images/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="NATUREZA POTS" class="proimage">
+                    <div class="price">
+                        <h4>NATUREZA POTS</h4>
+                        <p>$59.00</p>
                     </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
                     </div>
-                </div>
-                <div>
-                    <img src="images/oriento-l0ah3UBLppo-unsplash.jpg" alt="CAMPEÃO VASE">
-                    <div>
-                    <h4>CAMPEÃO VASE</h4>
-                    <p>$37.00</p>
-                    </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/tom-crew-SITGdvztUdg-unsplash.jpg" alt="TROCA BOWLS">
-                    <div>
-                    <h4>TROCA BOWLS</h4>
-                    <p>$25.00</p>
+                <div class="products1">
+                    <img src="images/linh-le-a0rE64YJDA4-unsplash.jpg" alt="PEDRA VASE" class="proimage">
+                    <div class="price">
+                        <h4>PEDRA VASE</h4>
+                        <p>$31.00</p>
                     </div>
-                    <p>idk a bar</p>
-                    <p>Tincidunt praesent semper feugiat nibh
-                        sed. Vulputate mi sit amet mauris
-                        commodo quis imperdiet massa. Amet
-                        tellus cras adipiscing enim eu turpis
-                        egestas pretium aenean.</p>
-                    <div>
-                        <p>Learn More</p>
-                        <p>ADD TO CART</p>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
                     </div>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
+                    </div>
+                </div>
+                <div class="products1">
+                    <img src="images/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="VIAJA POTS" class="proimage">
+                    <div class="price">
+                        <h4>VIAJA POTS</h4>
+                        <p>$57.00</p>
+                    </div>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
+                    </div>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="products1">
+                    <img src="images/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="SERVIÇO PLATES" class="proimage">
+                    <div class="price">
+                        <h4>SERVIÇO PLATES</h4>
+                        <p>$35.00</p>
+                    </div>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
+                    </div>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
+                    </div>
+                </div>
+                <div class="products1">
+                    <img src="images/oriento-l0ah3UBLppo-unsplash.jpg" alt="CAMPEÃO VASE" class="proimage">
+                    <div class="price">
+                        <h4>CAMPEÃO VASE</h4>
+                        <p>$37.00</p>
+                    </div>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
+                    </div>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
+                    </div>
+                </div>
+                <div class="products1">
+                    <img src="images/tom-crew-SITGdvztUdg-unsplash.jpg" alt="TROCA BOWLS" class="proimage">
+                    <div class="price">
+                        <h4>TROCA BOWLS</h4>
+                        <p>$25.00</p>
+                    </div>
+                    <div class="linespace">
+                        <p>Tincidunt praesent semper feugiat nibh</p>
+                        <p>sed. Vulputate mi sit amet mauris</p>
+                        <p>commodo quis imperdiet massa. Amet</p>
+                        <p>tellus cras adipiscing enim eu turpis</p>
+                        <p>egestas pretium aenean.</p>
+                    </div>
+                    <div class="price">
+                        <a class="color" href="#home">LEARN MORE</a>
+                        <p class="color1">ADD TO CART</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
-                
-
-        <section class="contacts">
-            <p>EMAIL</p>
-            <p>BOX</p>
-            <P>MESSAGE</P>
-            <p>BOX</p>
-            <p>SEND</p>
+        <section id="contacts">
+            <div>
+                <h2 class="titles">CONTACT US</h2>
+            </div>
+            <div >
+                <form action="action_page.php" class="bye" >
+                    <div class="contact">
+                    <label for="email" class="left">EMAIL</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    <label for="message" class="left">MESSAGE</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+                <input type="submit" value="SEND" class="send">
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div class="foot">
             <div>
-                <img src="images/icons8-youtube-96.png" alt="youtube">
-                <img src="images/icons8-facebook-96 (1).png" alt="facebook">
+                <img src="images/icons8-youtube-96.png" alt="youtube" class="icons">
+                <img src="images/icons8-facebook-96 (1).png" alt="facebook" class="icons">
+            </div>
+            <div class="flex-container11" >
+                <p>C A R A</p>
+                <img src="images/icons8-pottery-96 (1).png" alt="logo" class="logofoot" >
+                <p>C A R A</p>
             </div>
             <div>
-                <p>CARA</p>
-                <img src="images/icons8-pottery-96.png" alt="pot logo">
-                <p>CARA</p>
-            </div>
-            <div>
-                <img src="images/icons8-twitter-96.png" alt="twitter">
-                <img src="images/icons8-instagram-96.png" alt="instagram">
+                <img src="images/icons8-twitter-96.png" alt="twitter" class="icons">
+                <img src="images/icons8-instagram-96.png" alt="instagram" class="icons">
             </div>
         </div>
         <div>
+        <div class="foots">
             <p>Pretium nibh ipsum consequat nisl vel pretium.</p>
+            <!-- <img src="images/icons8-pottery-96.png" alt="logo" class="logos"> -->
             <p>Amet tellus cras adipiscing enim eu turpis</p>
         </div>
-            <p>©Copyright 2015 - 2020</p>
+            <p class="right">©Copyright 2015 - 2020</p>
+        </div>
     </footer>
 </body>
 </html>
