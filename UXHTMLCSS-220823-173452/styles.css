@@ -344,3 +344,16 @@ li a:hover:not(.active) {
   width: 20%;
   margin-top: 3%;
 }
+
+
+a:visited { 
+  text-decoration: inherit; 
+  color: inherit; 
+ }
+
+ a:link { text-decoration: inherit; }
+
+a:hover { text-decoration: inherit; }
+
+
+a:active { text-decoration: inherit; }
